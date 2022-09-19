@@ -14,7 +14,6 @@ RUN git clone https://github.com/artemisfowl004/shell-bot-1 && cd shell-bot-1
 
 WORKDIR /app/shell-bot-1
 
-COPY . .
 
 RUN npm install
 
